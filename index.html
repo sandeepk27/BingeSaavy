@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTT Subscription Plans</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>OTT Subscription Plans</h1>
+    <div class="ott-platforms" id="ott-platforms"></div>
+    <div class="plan-selection">
+      <h3 id="selected-ott">Select a Platform</h3>
+      <div class="plans" id="plans"></div>
+    </div>
+    <div class="currency-selector">
+      <label for="currency">Choose Currency:</label>
+      <select id="currency">
+        <option value="USD">USD</option>
+        <option value="INR">INR</option>
+        <option value="GBP">GBP</option>
+        <option value="EUR">EUR</option>
+        <option value="Dinar">Dinar</option>
+        <option value="CAD">CAD</option>
+        <option value="AUD">AUD</option>
+        <option value="JPY">JPY</option>
+      </select>
+    </div>
+    <div class="price-display">
+      <h3 id="price">Price: -</h3>
+    </div>
+    <div class="supported-devices">
+      <h3>Supported Devices:</h3>
+      <ul id="devices-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

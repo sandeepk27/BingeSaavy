@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ott-platforms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .platform-card {
+    width: 120px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .platform-card img {
+    width: 100px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .platform-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .plan-selection {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .plan-button {
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+  .plan-button:hover {
+    background: #f0f0f0;
+  }
+  
+  .currency-selector {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .currency-selector select {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .price-display {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .supported-devices {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .supported-devices ul {
+    list-style: none;
+    padding: 0;
+  }
+  
