@@ -31,7 +31,7 @@ const ottPlans = [
     },
     {
         name: 'Sun NXT',
-        icon: '',
+        icon: 'images/sunnxt.jpeg',
         plans: [
           { name: 'Monthly', price: { INR: 50, USD: 0.99, GBP: 0.79, EUR: 0.89 } },
           { name: 'Yearly', price: { INR: 490, USD: 5.99, GBP: 4.99, EUR: 5.49 } },
@@ -40,7 +40,7 @@ const ottPlans = [
       },
       {
         name: 'Sony LIV',
-        icon: '',
+        icon: 'images/sonyliv.jpeg',
         plans: [
           { name: 'Mobile (Yearly)', price: { INR: 599, USD: 7.99, GBP: 6.99, EUR: 7.49 } },
           { name: 'Premium (Yearly)', price: { INR: 999, USD: 12.99, GBP: 10.99, EUR: 11.99 } },
@@ -49,7 +49,7 @@ const ottPlans = [
       },
       {
         name: 'Zee5',
-        icon: '',
+        icon: 'images/zee5.jpeg',
         plans: [
           { name: 'Premium HD (Yearly)', price: { INR: 899, USD: 10.99, GBP: 9.99, EUR: 10.49 } },
           { name: 'Premium 4K (Yearly)', price: { INR: 1199, USD: 14.99, GBP: 12.99, EUR: 13.99 } },
@@ -58,7 +58,7 @@ const ottPlans = [
       },
       {
         name: 'Aha',
-        icon: '',
+        icon: 'images/aha.jpeg',
         plans: [
           { name: 'Regular (Yearly)', price: { INR: 399, USD: 4.99, GBP: 3.99, EUR: 4.49 } },
           { name: 'Gold (Yearly)', price: { INR: 699, USD: 8.49, GBP: 6.99, EUR: 7.99 } },
@@ -67,7 +67,7 @@ const ottPlans = [
       },
       {
         name: 'ETV Win',
-        icon: '',
+        icon: 'images/etvwin.jpeg',
         plans: [
           { name: 'Yearly', price: { INR: 365, USD: 4.49, GBP: 3.79, EUR: 4.19 } },
         ],
@@ -75,7 +75,7 @@ const ottPlans = [
       },
       {
         name: 'Lionsgate Play',
-        icon: '',
+        icon: 'images/loinsgate.png',
         plans: [
           { name: 'Yearly', price: { INR: 699, USD: 8.99, GBP: 7.49, EUR: 7.99 } },
         ],
@@ -83,7 +83,7 @@ const ottPlans = [
       },
       {
         name: 'Shemaroo',
-        icon: '',
+        icon: 'images/shemaroo.jpeg',
         plans: [
           { name: 'Yearly', price: { INR: 499, USD: 5.99, GBP: 4.99, EUR: 5.49 } },
         ],
@@ -91,7 +91,7 @@ const ottPlans = [
       },
       {
         name: 'Ullu',
-        icon: '',
+        icon: 'images/ullu.jpeg',
         plans: [
           { name: 'Yearly', price: { INR: 297, USD: 3.49, GBP: 2.99, EUR: 3.19 } },
         ],
@@ -99,7 +99,7 @@ const ottPlans = [
       },
       {
         name: 'Apple TV+',
-        icon: '',
+        icon: 'images/apple.jpeg',
         plans: [
           { name: 'Monthly', price: { INR: 99, USD: 4.99, GBP: 3.99, EUR: 4.49 } },
           { name: 'Yearly', price: { INR: 999, USD: 49.99, GBP: 39.99, EUR: 44.99 } },
@@ -108,7 +108,7 @@ const ottPlans = [
       },
       {
         name: "Jio Cinema",
-        icon: '',
+        icon: 'images/jiocinema.jpeg',
         plans: [
             { name: "Premium", price: { INR: 999 }, duration: "Yearly" },
         ],
@@ -117,7 +117,7 @@ const ottPlans = [
     },
     {
         name: "ALT Balaji",
-        icon: '',
+        icon: 'images/altbalaji.jpeg',
         plans: [
             { name: "Quarterly", price: { INR: 100 }, duration: "3 Months" },
             { name: "Yearly", price: { INR: 300 }, duration: "Yearly" },
@@ -127,7 +127,7 @@ const ottPlans = [
     },
     {
         name: "Voot",
-        icon: '',
+        icon: 'images/voot.jpeg',
         plans: [
             { name: "Mobile", price: { INR: 299 }, duration: "Yearly" },
             { name: "All Access", price: { INR: 599 }, duration: "Yearly" },
@@ -137,7 +137,7 @@ const ottPlans = [
     },
     {
         name: "HBO Max",
-        icon: '',
+        icon: 'images/hbo.jpeg',
         plans: [
             { name: "Ad-Free", price: { USD: 15.99 }, duration: "Monthly" },
             { name: "With Ads", price: { USD: 9.99 }, duration: "Monthly" },
@@ -147,7 +147,7 @@ const ottPlans = [
     },
     {
         name: "Discovery+",
-        icon: '',
+        icon: 'images/discovery.jpeg',
         plans: [
             { name: "Mobile", price: { INR: 299 }, duration: "Yearly" },
             { name: "Premium", price: { INR: 399 }, duration: "Yearly" },

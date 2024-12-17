@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background: #f4f4f9;
-    color: #333;
+    color: #000000;
   }
   
   .container {
@@ -41,6 +41,8 @@ body {
     width: 100px;
     height: 60px;
     margin-bottom: 10px;
+    margin-top: 12px;
+    border-radius: 3px;
   }
   
   .platform-card:hover {
