@@ -22,7 +22,7 @@ const ottPlans = [
     },
     {
       name: "Disney Hotstar",
-      icon: "images/hotstar.jpeg",
+      icon: "images/hotstar.jpeg", 
       plans: [
         { name: "Monthly", price: { USD: 3.99, INR: 49, GBP: 2.99, EUR: 3.50, Dinar: 1.25, CAD: 5.50, AUD: 5.99 } },
         { name: "Yearly", price: { USD: 47.88, INR: 499, GBP: 35.88, EUR: 40.00, Dinar: 15.00, CAD: 60.00, AUD: 65.00 } },
